@@ -4,17 +4,17 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Welcome flutter',
-        home: Scaffold(
-          appBar: AppBar(
-            title: Text('welcome to Flutter'),
-          ),
-          body: Center(
-            child:Text('hello world'),
-          ),
+      title: 'Welcome flutter',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('welcome to Flutter'),
         ),
+        body: Center(
+          child: Text('hello world'),
+        ),
+      ),
     );
   }
 }
